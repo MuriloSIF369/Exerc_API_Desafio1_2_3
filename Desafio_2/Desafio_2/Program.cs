@@ -76,6 +76,14 @@ switch (UserChoice)
                     {
                         Console.WriteLine(item.name.official);
                     }
+                    if (FormatedRegion == "brl")
+                    {
+                        Console.WriteLine(item.name.official);
+                    }
+                    if (FormatedRegion == "usd")
+                    {
+                        Console.WriteLine(item.name.official);
+                    }
                 }
             }
             catch (Exception)
