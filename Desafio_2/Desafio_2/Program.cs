@@ -56,7 +56,7 @@ switch (UserChoice)
         }
     case 2:
         CountryDataSet _root2 = new CountryDataSet();
-        Console.Write("Continente desejado: ");
+        Console.Write("Local desejado (usd, afr, brl):  ");
         _root2.region = Console.ReadLine();
         string FormatedRegion = _root2.region.ToLower();
 
